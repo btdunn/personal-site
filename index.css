@@ -126,5 +126,25 @@ p{
 
 .me{
   margin-top: 15px;
-  height: 80%;
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 1057px){
+  .color-container{
+    width: 25%;
+  }
+  .section-container{
+    width: 75%;
+  }
+  .me{
+    max-width: 100%;
+    height: auto;
+  }
+  h1{
+    font-size: 55pt;
+  }
+  p{
+    font-size: 18pt;
+  }
 }
