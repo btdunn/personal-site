@@ -130,6 +130,8 @@ p{
   height: auto;
 }
 
+/* viewh vieww */
+
 @media screen and (max-width: 1057px){
   .color-container{
     width: 25%;
